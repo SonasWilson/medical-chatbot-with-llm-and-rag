@@ -66,7 +66,7 @@ medical-chatbot-with-llm-and-rag/
 ├── app.py
 ├── store_index.py
 ├── requirements.txt
-├── .env.example
+├── .env
 ├── templates/
 ├── static/
 ├── src/
@@ -157,6 +157,10 @@ python app.py
 * Docker containerization
 * Authentication system
 * Advanced agent-based workflow (LangGraph)
+
+
+<img width="1000" height="813" alt="image" src="https://github.com/user-attachments/assets/80288eab-b770-446b-b333-edd9ad2d1418" />
+
 
 ---
 
