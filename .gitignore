@@ -1,0 +1,66 @@
+# Environment variables - NEVER commit secrets
+.env
+.env.*
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+research/.ipynb_checkpoints/
+
+# Data files (large PDFs - store separately)
+data/*.pdf
+data/*.csv
+data/*.json
+
+# Pinecone / vector store local cache
+*.faiss
+*.pkl
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
